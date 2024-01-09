@@ -49,6 +49,11 @@ body {
     padding-bottom: 5px;
 }
 
+.linksheaderarchivo {
+    color: white;
+    text-decoration: none;
+}
+
 @media (min-width: 768px) {
     .header {
         background-color: var(--color1);
@@ -290,6 +295,7 @@ footer {
     text-align: center;
     justify-content: center;
     padding: 20px;
+    text-decoration: none;
 }
 
 .emailycel {
@@ -302,7 +308,7 @@ footer {
     padding: 10px;
     font-family: 'PT Sans', sans-serif;
     color: #fff;
-
+    text-decoration: none;
 }
 
 .parrafofooter {
@@ -310,6 +316,7 @@ footer {
     color: #fff;
     text-align: center;
     margin-bottom: 20px;
+    text-decoration: none;
 }
 
 .logoderechosfooter {
@@ -359,6 +366,7 @@ footer {
         display: flex;
         text-align: center;
         justify-content: center;
+        text-decoration: none;
     }
     
     .emailycel {
@@ -371,6 +379,7 @@ footer {
         padding: 10px;
         font-family: 'PT Sans', sans-serif;
         color: #fff;
+        text-decoration: none;
     
     }
     
@@ -522,6 +531,9 @@ i {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
+
+
+/* ------------------------------------------------------ GRID ------------------------------------------------------------------------------------------------ */
 .container {
 
     display:grid;
@@ -614,7 +626,7 @@ form {
 
 .input-box > input::placeholder,
 .input-box > textarea::placeholder {
-    color:#a3a3a3;
+    color:#fff;
     
 }
 
@@ -721,7 +733,8 @@ form > button:hover,
     color: #fff;
     margin-top: 0;
     margin-bottom: 0;
-
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .archivo2 {
@@ -737,4 +750,100 @@ form > button:hover,
     margin: 0;
     padding: 10px;
 
+}
+
+.mainjovenes {
+    background-image: url(../img/DSCN7623-01-01.jpeg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    display: block;
+
+}
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #1c7c54 0%,
+    #73e2a7 29%,
+    #b1cf5f 67%,
+    #1b512d 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: block;
+  font-size: 45px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@media (min-width: 768px) {
+
+    
+    .mainjovenes {
+        background-image: url(../img/DSCN7623-01-01.jpeg);
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        display: block;
+    
+    }
+    
+    
+    .animate-charcter
+    {
+       text-transform: uppercase;
+      background-image: linear-gradient(
+        -225deg,
+        #1c7c54 0%,
+        #73e2a7 29%,
+        #b1cf5f 67%,
+        #1b512d 100%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s linear infinite;
+      display: block;
+      font-size: 100px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 900;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    
+    
+    @keyframes textclip {
+      to {
+        background-position: 200% center;
+      }
+    } 
+}
+
+.carousel-item {
+    width: 75%;
 }
