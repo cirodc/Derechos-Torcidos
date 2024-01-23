@@ -23,6 +23,12 @@ body {
     margin: 0px;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
 
 /* header */
 
@@ -81,15 +87,6 @@ body {
         gap: 20px;
     }
 }
-
-a {
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-}
-
-
 
 .linksheader1:hover {
     color: var(--color4);
@@ -698,7 +695,7 @@ form > button:hover,
     0%, 100% {transform: translateX(0);} 
     10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);} 
     20%, 40%, 60%, 80% {transform: translateX(10px);} 
- }
+}
 
 
 @media screen and (max-width:600px) {
@@ -769,7 +766,7 @@ form > button:hover,
     -225deg,
     #1c7c54 0%,
     #73e2a7 29%,
-    #b1cf5f 67%,
+    #000 67%,
     #1b512d 100%
   );
   background-size: auto auto;

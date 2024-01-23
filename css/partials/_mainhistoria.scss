@@ -1,0 +1,59 @@
+.mainhistoria {
+    background-image: url(../img/IMG-20231207-WA0031-01-02.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+.historia1 {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    align-items: center;
+
+}
+
+
+.parrafohistoria {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    margin: 10px;
+    font-size: 30px;
+    color: #fff;
+    vertical-align: middle;
+    padding-top: 40px;
+}
+
+.imghistoria1   {
+    align-items: center;
+    -webkit-box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.52);
+    box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.52);
+}
+
+.historia2 {
+    display: block;
+    text-align: center;
+}
+
+
+.imghistoria2{
+    display: none;
+    justify-content: center;
+    object-fit: cover;
+    -webkit-box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.52);
+    box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.52);
+}
+
+.spanhistoria2 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.spanhistoria {
+    color: var(--color2);
+    font-size: 32px;
+}
+

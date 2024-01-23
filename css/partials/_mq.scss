@@ -1,0 +1,282 @@
+@media (min-width: 768px) {
+    .header {
+        background-color: var(--color1);
+        display: block;
+        align-items: center;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    .logoheader {
+        text-align: center;
+        align-items: center;
+    }   
+
+    .linksheader {
+        background-color: var(--color1);
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 10px;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 768px) { 
+    .main {
+        display: flex;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        background-image: url(../img/DSCN7620-01.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: space-around;
+    
+    
+    }
+    .h1main {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        font-size: 50px;
+        padding-left: 20px;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: initial;
+        margin-top: 70px;
+    }
+    .spanh1 {
+        color: var(--color2);
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .reproducir {
+        background-color: var(--color2);
+        padding-top: 5px;
+        
+    }
+    .h2reproductor {
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .linkreproductor {
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-color: var(--color1);
+        padding: 5px;
+    }
+    
+    .preproductor {
+        text-align: center;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 300;
+    }
+    
+    .preproductor1 {
+        text-align: center;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 300;
+    }
+}
+
+@media (min-width: 768px) {
+    footer {
+        background-color: var(--negro);
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    
+    .displayfooter {
+        background-color: var(--negro);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .logosfooter {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .patrociniofooter {
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .brunch {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100px;
+        height: 100px;
+        margin: 0;
+        vertical-align: 0;
+    }
+    
+    .igytiktok {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    
+    .emailycel {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .parraforedes {
+        padding: 10px;
+        font-family: 'PT Sans', sans-serif;
+        color: #fff;
+        text-decoration: none;
+    
+    }
+    
+    .parrafofooter {
+        font-family: 'PT Sans', sans-serif;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .logoderechosfooter {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 768px) {
+    .mainhistoria {
+        background-image: url(../img/IMG-20231207-WA0031-01-02.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10px;
+    }
+
+    .historia1 {
+        display: flex;
+        text-align: start;
+        margin: 10px;
+    }
+
+    .historia2 {
+        display: flex;
+    }
+
+
+
+    .parrafohistoria {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        margin: 10px;
+        font-size: 30px;
+        color: #fff;
+        vertical-align: middle;
+        padding-top: 40px;
+    }
+
+    .imghistoria2{
+        display: flex;
+        align-items: start;
+        object-fit: cover;
+        -webkit-box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.52);
+        -moz-box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.52);
+        box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.52);
+    }
+
+    .imghistoria1   {
+        -webkit-box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.52);
+        -moz-box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.52);
+        box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.52);
+    }
+
+    .spanhistoria {
+        color: var(--color2);
+        font-size: 32px;
+    }
+    .spanhistoria2 {
+        font-size: 20px;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .box-info {
+        gap:15px;
+    }
+
+    .box-info > h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    
+    .mainjovenes {
+        background-image: url(../img/DSCN7623-01-01.jpeg);
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        display: block;
+    
+    }
+    
+    
+    .animate-charcter
+    {
+       text-transform: uppercase;
+      background-image: linear-gradient(
+        -225deg,
+        #1c7c54 0%,
+        #73e2a7 29%,
+        #b1cf5f 67%,
+        #1b512d 100%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s linear infinite;
+      display: flex;
+      font-size: 100px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 900;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    
+}

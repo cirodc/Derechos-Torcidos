@@ -1,0 +1,50 @@
+.header {
+    background-color: var(--color1);
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.linksheader1 {
+    display: block;
+    background-color: var(--color1);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    &:hover {
+        color: var(--color4);
+        transition: 200ms;
+        background-color: white;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    
+    .linksheader1-reproductor {
+        border-radius: 5px;
+        padding: 5px;
+        background-color: white;
+        color: var(--color4);
+        
+    }
+}
+
+.linksheaderarchivo {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
