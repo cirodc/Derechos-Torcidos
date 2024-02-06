@@ -734,4 +734,13 @@ form > button {
       background-position: 200% center;
     }
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+.linksheader1-reproductor {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+  color: var(--color4);
+  
+}
+/*# sourceMappingURL=main.css.map */
